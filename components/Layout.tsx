@@ -43,7 +43,7 @@ const Layout: React.FunctionComponent<Props> = ({
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url("/background.jpeg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: auto;
   text-align: center;
   min-height: 100vh;
@@ -71,7 +71,7 @@ a:visited {
           -webkit-font-smoothing: antialiased;
           -moz-osx-font-smoothing: grayscale;
           background-image: url("/background.jpeg");
-          background-repeat: no-repeat;
+          background-repeat: repeat;
           background-size: auto;
           text-align: center;
           min-height: 100vh;
@@ -99,7 +99,7 @@ a:visited {
           -webkit-font-smoothing: antialiased;
           -moz-osx-font-smoothing: grayscale;
           background-image: url("/background.jpeg");
-          background-repeat: no-repeat;
+          background-repeat: repeat;
           background-size: auto;
           text-align: center;
           min-height: 100vh;
