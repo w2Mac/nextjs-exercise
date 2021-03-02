@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import Layout from '../components/Layout';
 
 export default class PreviousNextMethods extends Component {
+  slider;
   constructor(props) {
     super(props);
     this.next = this.next.bind(this);
