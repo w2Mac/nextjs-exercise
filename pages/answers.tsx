@@ -47,7 +47,7 @@ const IndexPage: NextPage = () => {
         <li>Please take note that Netlify builds is case sensitive, could you please double-check if your code is case sensitive since error messages that result may not clearly indicate this.</li>
         <li>Please provide me with the build ERROR message you received to better understand the issue on your end.</li>  
       </ul>
-      <p>The above information will help me start my investigation of your issue. Also, I highly recommend reviewing our <a classname="Link2" href="https://docs.netlify.com/configure-builds/troubleshooting-tips/">build troubleshooting article</a> as it contains useful information related to your issue.</p>
+      <p>The above information will help me start my investigation of your issue. Also, I highly recommend reviewing our <a classname="Link" href="https://docs.netlify.com/configure-builds/troubleshooting-tips/">build troubleshooting article</a> as it contains useful information related to your issue.</p>
       </Layout>
     );  
 }
