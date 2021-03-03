@@ -48,6 +48,8 @@ const IndexPage: NextPage = () => {
         <li>Please provide me with the build ERROR message you received to better understand the issue on your end.</li>  
       </ul>
       <p>The above information will help me start my investigation of your issue. Also, I highly recommend reviewing our <a className="Link" href="https://docs.netlify.com/configure-builds/troubleshooting-tips/">build troubleshooting article</a> as it contains useful information related to your issue.</p>
+      <h4>Redirect has been configured</h4>
+      <p>Please test this link:<a className="Link" href="https://wizardly-sinoussi-2b77e0.netlify.app/netlify/Anything">https://wizardly-sinoussi-2b77e0.netlify.app/netlify/Anything</a></p>
       </Layout>
     );  
 }
