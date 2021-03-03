@@ -6,7 +6,7 @@ const IndexPage: NextPage = () => {
   return (
       <Layout title="Answers">  
       <h4>How this happen?</h4>
-      <p>The first challenge that I experienced was trying to build the site through Netlify as my build setting was incorrect. After adding "export" to build script to create the necessary "out/" directory and debugging the code, I was able to load the simple site that I have. Then I tried to implement slider into the site to make my answers presentable. Unfortunately, I still have much to lear on React in order to implement it successfully</p>
+      <p>The first challenge that I experienced was trying to build the site through Netlify as my build setting was incorrect. After adding "export" to build script to create the necessary "out/" directory and debugging the code, I was able to load the simple site that I have. Then I tried to implement slider into the site to make my answers presentable. Unfortunately, I still have much to lear on React in order to implement it successfully. I chose next.js as it is the most popular. Hence, it is highly possible that most customers is using this ssg. Understanding this ssg first will increase the possibility of me supporting the customer earlier.</p>
       <h4>How was Netlify?</h4>
       <p>Honestly, I didn't experienced any issue with the service as the build logs were detailed enough for me to troubelshoot and the deployment was fast and painless. The issue I had is with my code, hence it is not the service fault. It is the one between the keyboard and the chair.</p>
       <h4>5 Favorite?</h4>
@@ -50,6 +50,11 @@ const IndexPage: NextPage = () => {
       <p>The above information will help me start my investigation of your issue. Also, I highly recommend reviewing our <a className="Link" href="https://docs.netlify.com/configure-builds/troubleshooting-tips/">build troubleshooting article</a> as it contains useful information related to your issue.</p>
       <h4>Redirect has been configured</h4>
       <p>Please test this link:<a className="Link" href="https://wizardly-sinoussi-2b77e0.netlify.app/netlify/Anything">https://wizardly-sinoussi-2b77e0.netlify.app/netlify/Anything</a></p>
+      <h4>Suggestion</h4>
+      <ul>
+        <li>The links in the e-mail sent are all broken</li>
+        <li>I believe, the wording could be improve as it wasn't clear that I should use the site to answer the questions. I only realize after Laura replied my queries and mentioned "you can format the answer however you'd like on your site".</li>
+      </ul>
       </Layout>
     );  
 }
